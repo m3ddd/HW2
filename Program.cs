@@ -11,8 +11,8 @@
 // if (number > 100 && number <= 1000)
 // {
 //   int secondRank = number / 10 % 10;
-// Console.WriteLine($"Вы ввешли число: {number}" );
-// Console.WriteLine($"Вторая цифра: {secondRank}");
+// Console.WriteLine($"Вы ввели число: {number}" );
+// Console.WriteLine($"Вторая цифра этого числа: {secondRank}");
 // }
 // else
 // Console.WriteLine("Вы ввели не трехзначное число, повторите попытку снова");
@@ -43,3 +43,25 @@
 // else
 // Console.WriteLine($"Вы ввели число: {number1}");
 // Console.WriteLine($"Третя цифра этого числа: {ThirdDigit(number1)}");
+
+
+// Задача 15: 
+// Напишите программу, которая принимает на вход цифру, 
+// обозначающую день недели, и проверяет, является ли этот день выходным.
+
+
+// int ReadInt(string message)
+// {
+//   Console.WriteLine(message);
+//   return Convert.ToInt32(Console.ReadLine());
+// }
+// int number = ReadInt("Введите число");
+// string weekday = "Это не день недели";
+// string check(int number)
+// {
+//   if (number >= 6 && number < 8) weekday = "Это выходной день";
+//   if (number >= 1 && number < 7) weekday = "Это будний день";
+//   return weekday;
+// }
+
+// Console.WriteLine(check(number));
